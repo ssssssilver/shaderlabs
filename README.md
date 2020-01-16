@@ -9,3 +9,6 @@
 
 3.边缘检测着色器 通过对每个顶点的八个方向的透明度进行检测从而求出透明图片的边缘
 ![边缘检测](https://github.com/ssssssilver/shaderlabs/blob/master/preview/edge.gif)
+
+4.遮罩着色器 通过利用遮罩图的a通道 如果没有遮罩图 也可以使用着色器创建一个圆来进行蒙版
+![遮罩模拟器](https://github.com/ssssssilver/shaderlabs/blob/master/preview/mask.gif)
