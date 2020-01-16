@@ -1,4 +1,6 @@
 # shaderlabs
+Unity版本5.3.6p7
+只要版本比这个高基本不会出太大问题
 使用shaderlab制作的着色器案例
 =============================================================
 1.模拟草随风飘动着色器 通过顶点着色器修改模型顶点 模拟风吹的效果
@@ -12,3 +14,6 @@
 
 4.遮罩着色器 通过利用遮罩图的a通道 如果没有遮罩图 也可以使用着色器创建一个圆来进行蒙版
 ![遮罩模拟器](https://github.com/ssssssilver/shaderlabs/blob/master/preview/mask.gif)
+
+5.边缘高光着色器 根据世界法线与视角的点积来求出边缘 进行着色
+![边缘高光](https://github.com/ssssssilver/shaderlabs/blob/master/preview/specular.gif)
