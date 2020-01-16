@@ -17,3 +17,6 @@ Unity版本5.3.6p7
 
 5.边缘高光着色器 根据世界法线与视角的点积来求出边缘 进行着色
 ![边缘高光](https://github.com/ssssssilver/shaderlabs/blob/master/preview/specular.gif)
+
+6.渐变着色器 根据世界位置的y轴来改变模型的颜色 并用插值来产生渐变效果
+![渐变](https://github.com/ssssssilver/shaderlabs/blob/master/preview/ychange.gif)
