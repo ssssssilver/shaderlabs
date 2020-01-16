@@ -6,3 +6,6 @@
 
 2.背景滚动着色器 通过改变uv的偏移速度来让图片产生滚动效果 通过插值的方法 能让背景与多个透明的前景混合
 ![背景滚动](https://github.com/ssssssilver/shaderlabs/blob/master/preview/scroll.gif)
+
+3.边缘检测着色器 通过对每个顶点的八个方向的透明度进行检测从而求出透明图片的边缘
+![边缘检测](https://github.com/ssssssilver/shaderlabs/blob/master/preview/edge.gif)
