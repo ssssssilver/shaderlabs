@@ -2,8 +2,8 @@
 {
 	Properties
 	{
-		_MainTex("Texture", 2D) = "white" {}
-		_MaskTex("Texture", 2D) = "white" {}
+		_MainTex("MainTex", 2D) = "white" {}
+		_MaskTex("MaskTex", 2D) = "white" {}
 		_Radius("Radius",Range(0,1))=0.5
 		_Pow("Power",Range(0.01,0.2))=0.1
 	}
