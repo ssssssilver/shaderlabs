@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/3.Edge.unity
+- path: Assets/Scenes/4.mask.unity
   isLoaded: 1
   isActive: 1
