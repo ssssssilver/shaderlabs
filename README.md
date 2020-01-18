@@ -20,3 +20,6 @@ Unity版本5.3.6p7
 
 6.渐变着色器 根据世界位置的y轴来改变模型的颜色 并用插值来产生渐变效果
 ![渐变](https://github.com/ssssssilver/shaderlabs/blob/master/preview/ychange.gif)
+
+7.卡通着色器 第一层Pass只渲染背部，用于显示模型的轮廓 第二层通道的漫反射用渐变纹理采样代替 高光部分用Step方法让边界部分变得尖锐  
+![卡通着色](https://github.com/ssssssilver/shaderlabs/blob/master/preview/cartoon.jpg)
