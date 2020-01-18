@@ -149,7 +149,7 @@
 				fixed3 diffuse = _LightColor0.rgb * albedo * tex2D(_Ramp, float2(diff, diff)).rgb;
 
 				fixed spec = dot(worldNormal, halfDir);
-				//求高光部分的偏导值
+				//获取一个极小的值
 				fixed w = fwidth(spec) ;
 				//高光计算
 				fixed3 specular = _Specular.rgb * lerp(0, 1, smoothstep(-w, w, spec + _SpecularScale-1)) * step(0.0001, _SpecularScale);
