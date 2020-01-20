@@ -26,3 +26,6 @@ Unity版本5.3.6p7
 
 8.旗子飘动着色器 通过sin函数与_Time方法来改变模型坐标顶点z的位置 并与uv的X轴相乘 让波动幅度在x轴上递增 从而模拟旗子效果
 ![旗子飘动](https://github.com/ssssssilver/shaderlabs/blob/master/preview/flag.gif)
+
+8.过场着色器 或者叫黑场、转场着色器 通过改变遮罩图的tiling跟offset 让贴图产生缩放与旋转的效果 利用此遮罩图的a值 可以控制材质的显示或者隐藏从中心扩散到四周
+![过场](https://github.com/ssssssilver/shaderlabs/blob/master/preview/maskfading.gif)
