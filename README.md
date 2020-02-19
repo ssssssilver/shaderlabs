@@ -1,4 +1,8 @@
-# shaderlabs
+展示地址  
+WebGL
+http://117.48.208.243/done/Shaderlabs/index.html
+  
+# shaderlabs  
 Unity版本5.3.6p7  
 只要版本比这个高基本不会出太大问题  
 使用shaderlab制作的着色器案例  
